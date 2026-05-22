@@ -1,0 +1,304 @@
+{
+  "task_id": "7bbd960b5f98437289ff50aabee81bce",
+  "videoMetadata": {
+    "filename": "Sample Installation Video.mp4",
+    "fps": 24.0,
+    "frame_count": 192,
+    "width": 1280,
+    "height": 720,
+    "duration_sec": 8.0,
+    "sample_every_n_frames": 5,
+    "processed_frames": 39
+  },
+  "objectsDetected": [
+    {
+      "object_id": 1,
+      "class": "cord",
+      "first_seen_frame": 0,
+      "last_seen_frame": 135,
+      "best_confidence": 0.7746,
+      "last_bbox": [
+        475.51,
+        195.01,
+        943.83,
+        597.1
+      ],
+      "interacted": true,
+      "motion_history": [
+        {
+          "frame_range": [
+            0,
+            0
+          ],
+          "state": "stationary"
+        },
+        {
+          "frame_range": [
+            5,
+            5
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            10,
+            10
+          ],
+          "state": "stationary"
+        },
+        {
+          "frame_range": [
+            20,
+            20
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            25,
+            35
+          ],
+          "state": "stationary"
+        },
+        {
+          "frame_range": [
+            40,
+            40
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            45,
+            115
+          ],
+          "state": "stationary"
+        },
+        {
+          "frame_range": [
+            120,
+            130
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            135,
+            135
+          ],
+          "state": "stationary"
+        }
+      ],
+      "interactions": [
+        {
+          "interacted_by_person": 0,
+          "frame_start": 5,
+          "frame_end": 85,
+          "confidence_max": 0.8588,
+          "reason": "overlap_with_person"
+        },
+        {
+          "interacted_by_person": 0,
+          "frame_start": 100,
+          "frame_end": 135,
+          "confidence_max": 0.86,
+          "reason": "overlap_with_person"
+        }
+      ]
+    },
+    {
+      "object_id": 2,
+      "class": "car",
+      "first_seen_frame": 35,
+      "last_seen_frame": 125,
+      "best_confidence": 0.7002,
+      "last_bbox": [
+        1144.67,
+        518.4,
+        1279.53,
+        704.5
+      ],
+      "interacted": false,
+      "motion_history": [
+        {
+          "frame_range": [
+            35,
+            35
+          ],
+          "state": "stationary"
+        },
+        {
+          "frame_range": [
+            40,
+            125
+          ],
+          "state": "moving"
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "object_id": 3,
+      "class": "tie",
+      "first_seen_frame": 170,
+      "last_seen_frame": 170,
+      "best_confidence": 0.409,
+      "last_bbox": [
+        322.4,
+        214.59,
+        374.61,
+        522.69
+      ],
+      "interacted": false,
+      "motion_history": [
+        {
+          "frame_range": [
+            170,
+            170
+          ],
+          "state": "stationary"
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "object_id": 4,
+      "class": "bottle",
+      "first_seen_frame": 170,
+      "last_seen_frame": 190,
+      "best_confidence": 0.7125,
+      "last_bbox": [
+        898.11,
+        59.54,
+        938.55,
+        136.43
+      ],
+      "interacted": false,
+      "motion_history": [
+        {
+          "frame_range": [
+            170,
+            170
+          ],
+          "state": "stationary"
+        },
+        {
+          "frame_range": [
+            175,
+            180
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            185,
+            190
+          ],
+          "state": "stationary"
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "object_id": 5,
+      "class": "bottle",
+      "first_seen_frame": 180,
+      "last_seen_frame": 190,
+      "best_confidence": 0.5346,
+      "last_bbox": [
+        855.03,
+        30.89,
+        890.49,
+        145.44
+      ],
+      "interacted": false,
+      "motion_history": [
+        {
+          "frame_range": [
+            180,
+            180
+          ],
+          "state": "stationary"
+        },
+        {
+          "frame_range": [
+            185,
+            185
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            190,
+            190
+          ],
+          "state": "stationary"
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "object_id": 6,
+      "class": "bottle",
+      "first_seen_frame": 180,
+      "last_seen_frame": 180,
+      "best_confidence": 0.4767,
+      "last_bbox": [
+        791.73,
+        34.27,
+        835.3,
+        146.13
+      ],
+      "interacted": false,
+      "motion_history": [
+        {
+          "frame_range": [
+            180,
+            180
+          ],
+          "state": "stationary"
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "object_id": 7,
+      "class": "bowl",
+      "first_seen_frame": 180,
+      "last_seen_frame": 185,
+      "best_confidence": 0.4147,
+      "last_bbox": [
+        374.68,
+        494.34,
+        418.75,
+        530.23
+      ],
+      "interacted": false,
+      "motion_history": [
+        {
+          "frame_range": [
+            180,
+            180
+          ],
+          "state": "stationary"
+        },
+        {
+          "frame_range": [
+            185,
+            185
+          ],
+          "state": "moving"
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "keyframes": [
+    {
+      "object_id": 1,
+      "frame_index": 100,
+      "confidence": 0.86,
+      "path": "/Users/ezra/Documents/Codex/2026-05-21/files-mentioned-by-the-user-object/assessment/outputs/keyframes/7bbd960b5f98437289ff50aabee81bce/object_1_best_interaction.jpg"
+    }
+  ]
+}
