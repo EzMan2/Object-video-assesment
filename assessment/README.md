@@ -149,7 +149,7 @@ Results are written to `data/results/{task_id}.json`.
 
 ## Submission Info
 
-- Repository link: `TODO: add GitHub repository link here`
+- Repository link: `https://github.com/EzMan2/Object-video-assesment/tree/main`
 - Time spent: about 1 working day
 - Test evidence: all tests passed locally. Screenshot included in submission.
 
