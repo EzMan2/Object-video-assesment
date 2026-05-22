@@ -180,3 +180,18 @@ python -m unittest discover tests
 ## Notes
 
 The best interaction keyframe for each interacted object is saved under `outputs/keyframes/{task_id}/`. The main output is still the JSON result.
+
+
+## Test Execution Evidence
+
+### Upload Endpoint
+![Upload Success](<img width="2444" height="1538" alt="initial video file download" src="https://github.com/user-attachments/assets/5555029a-e37b-4d2a-b6ca-ac7b845d034a" />
+)
+
+### Task Completion
+![Task Completed](<img width="2374" height="1546" alt="task completion" src="https://github.com/user-attachments/assets/84afd1fb-dfd1-4a2f-b7d7-1861a12c5b55" />
+)
+
+### Result JSON
+![Result JSON](<img width="2384" height="1542" alt="JSon result" src="https://github.com/user-attachments/assets/7ed2c30e-3723-4270-b939-87d1fcc876e2" />
+)
