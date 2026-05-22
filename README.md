@@ -185,8 +185,7 @@ The best interaction keyframe for each interacted object is saved under `outputs
 ## Test Execution Evidence
 
 ### Upload Endpoint
-![Upload Success](<img width="2444" height="1538" alt="initial video file download" src="https://github.com/user-attachments/assets/5555029a-e37b-4d2a-b6ca-ac7b845d034a" />
-)
+![Upload Success](https://github.com/EzMan2/Object-video-assesment/blob/main/assessment/initial%20video%20file%20download.jpeg)
 
 ### Task Completion
 ![Task Completed](<img width="2374" height="1546" alt="task completion" src="https://github.com/user-attachments/assets/84afd1fb-dfd1-4a2f-b7d7-1861a12c5b55" />
