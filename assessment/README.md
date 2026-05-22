@@ -1,6 +1,6 @@
-# Object Identification in a Video MVP
+# Object Identification in a Video project
 
-This is my MVP for the "Object Identification in a Video" intern assessment. It uploads a video, runs YOLO on sampled frames, tracks detected objects with simple IDs, marks objects as moving or stationary, detects basic person-object interactions, and saves the final result as JSON.
+This is my project for the "Object Identification in a Video" intern assessment. It uploads a video, runs YOLO on sampled frames, tracks detected objects with simple IDs, marks objects as moving or stationary, detects basic person-object interactions, and saves the final result as JSON.
 
 ## Project Structure
 
@@ -143,7 +143,7 @@ Results are written to `data/results/{task_id}.json`.
 - The processor samples every 5 frames by default so the demo runs faster. This can be changed in `app/processor.py`.
 - The tracker is simple on purpose. It matches detections by class, center distance, and IoU, so it may lose an object if there is fast motion or occlusion.
 - Motion is based on center-point movement. If the center moves at least 8 pixels between sampled frames, I mark it as moving.
-- For interaction detection, I use overlap or closeness between a person box and an object box for consecutive sampled frames. The PDF mentions hand coordinates, but I kept this as a simple heuristic for the MVP.
+- For interaction detection, I use overlap or closeness between a person box and an object box for consecutive sampled frames. The PDF mentions hand coordinates, but I kept this as a simple heuristic for the project.
 - Task state and results are stored in JSON files under `data/`. This keeps the project easy to run locally.
 - FastAPI background tasks are used for async processing. A real deployment would probably use a job queue.
 
