@@ -188,9 +188,7 @@ The best interaction keyframe for each interacted object is saved under `outputs
 ![Upload Success](https://github.com/EzMan2/Object-video-assesment/blob/main/assessment/initial%20video%20file%20download.jpeg)
 
 ### Task Completion
-![Task Completed](<img width="2374" height="1546" alt="task completion" src="https://github.com/user-attachments/assets/84afd1fb-dfd1-4a2f-b7d7-1861a12c5b55" />
-)
+![Task Completed](https://github.com/EzMan2/Object-video-assesment/blob/main/assessment/task%20completion.jpeg)
 
 ### Result JSON
-![Result JSON](<img width="2384" height="1542" alt="JSon result" src="https://github.com/user-attachments/assets/7ed2c30e-3723-4270-b939-87d1fcc876e2" />
-)
+![Result JSON](https://github.com/EzMan2/Object-video-assesment/blob/main/assessment/JSon%20result.jpeg)
